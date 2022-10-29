@@ -1,5 +1,4 @@
-import something from "*/module.pypp"
-
+import something from "*/module.pypp";
 
 struct Person{
 
@@ -7,40 +6,51 @@ struct Person{
         this.height = height,
         this.weight = weight,
         this.name = name,
-        this.gender = gender
+        this.gender = gender;
     }
 
     function change_weight(float new_weight){
-        this.weight = new_weight
+        this.weight = new_weight;
     }
 
     function add_weight(float increase){
-        this.weight += increase
+        this.weight += increase;
     }
 
     private function say_hi(){
-        print("hi")
+        print("hi");
     }
 
 }
 
 class People{
-    string person1 = "Bob",
-    string person2 = "Wade",
-    string person3 = "Mark",
-    string person4 = "ethan"
-    string person5 = "sean"
+    string person1 = "Bob",;
+    string person2 = "Wade",;
+    string person3 = "Mark",;
+    string person4 = "ethan";
+    string person5 = "sean";
 }
 
-var person = People[person1] 
-Person.say_hi()  // error: object Person does not have method say_hi
-int number = 9
+var person = People[person1]; 
+Person.say_hi();  // error: object Person does not have method say_hi
+int number = 9;
+var array = [10, "yes", true];
 
+if (number == 9){
+    print("nice");
+}
 
+while (number >= 20){
+    number++;
+}
 
+for (int i; i < 10; i++){
+    print("something");
+}
 
-
-
+for (item in array){
+    print(item);
+}
 
 
 
