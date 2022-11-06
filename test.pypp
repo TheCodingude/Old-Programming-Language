@@ -1,2 +1,1 @@
-var number ;
-var number = 57 ; 
+int num = number ; 
