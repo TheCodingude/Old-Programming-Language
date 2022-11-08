@@ -1,1 +1,3 @@
-int num = number ; 
+var thing = 34 ;
+
+var other = thing ;
